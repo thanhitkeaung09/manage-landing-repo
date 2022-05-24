@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+$font-family-sans-serif : 'Be Vietnam Pro', sans-serif;
+$primary : hsl(12, 88%, 59%);
+$secondary: hsl(0, 0%, 98%);
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/animate.css/animate.min.css";
+@import "node_modules/hover.css/css/hover-min.css";
+
+.bg-image{
+  background-image: url(/images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: 130% -22vh;
+  background-size: auto;
+  height: 100vh;
+}
+
+.bg-image-second{
+  background-image: url(/images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: -100% 45vh;
+  background-size: auto;
+  height: 190vh;
+}
+
+.bg-image-last{
+  background-image: url(/images/bg-tablet-pattern1.svg);
+  background-repeat: no-repeat;
+  background-position: revert;
+  background-size: auto;
+
+}
+
+.avatar-margin-top{
+  margin-top: -85px !important;
+}
+input{
+  height: 36px !important;
+  border: none !important;
+}
+
+.header{
+  background: #ffffff7a !important;
+  backdrop-filter: blur(10px) contrast(150%);
+  z-index: 3000;
+  top: 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nav-btn{
+  transition: 0.3s !important;
+}
+.nav-btn:hover{
+  transform: translateY(-5px)!important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+
+.card-ani{
+  transition: 0.3s !important;
+}
+.card-ani:hover{
+  transform: translateY(-8px) !important;
+  cursor: pointer;
+  //border: 1px solid black;
+  //box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.hvr-underline-from-center:before{
+  //background-image: linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  background-color: red;
+
+}
+
+
